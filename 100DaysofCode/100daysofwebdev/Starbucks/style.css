@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navbar-left svg {
+  width: 50px;
+}

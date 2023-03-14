@@ -78,7 +78,34 @@ body {
 }
 
 .product-left,
-.product-right
+.product-right {
+  max-width: 50%;
+}
+
+.product-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.product-button {
+  colour: white;
+  border: 1px solid white;
+  max-width: max-content;
+  padding: 5px 20px 5px 20px;
+  border-radiuus: 40px;
+
+}
+
+.product-button-white {
+  color: white;
+
+}
+
+.product-button-black {
+  color: black;
+  border-colour: black;
+}
 
 .container {
   maxx-width: 1440px;

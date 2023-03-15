@@ -71,6 +71,8 @@ body {
 
 .product img {
   max-width:100%;
+  object-fit: contain;
+  height: 100%;
 }
 
 .product{
@@ -86,14 +88,23 @@ body {
   width: 100%;
   text-align: center;
   color: white;
+
+
+}
+
+.product-container {
+  margin: 40px 0px 40px 0px;
 }
 
 .product-button {
-  colour: white;
+
   border: 1px solid white;
   max-width: max-content;
   padding: 5px 20px 5px 20px;
-  border-radiuus: 40px;
+  border-radius: 40px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
 
 }
 
@@ -105,6 +116,12 @@ body {
 .product-button-black {
   color: black;
   border-colour: black;
+}
+
+.product-description {
+  text-align: center;
+  padding 30px 60px 30px 60px;
+  font-size: 18px;
 }
 
 .container {
